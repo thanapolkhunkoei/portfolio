@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 import img1 from "../assets/Images/mypic.JPG";
-import img2 from "../assets/Images/mypic2.jpg";
 
 const Section = styled.section`
   position: relative;
@@ -60,7 +59,7 @@ const Left = styled.div`
   @media (max-width: 64em) {
     width: 80%;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%) !important;
     margin: 0 auto;
