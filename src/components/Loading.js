@@ -21,8 +21,8 @@ const Container = styled(motion.div)`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  background-color: ${(props) => props.theme.body};
+  background-color: black;
+  /* background-color: ${(props) => props.theme.body}; */
   color: ${(props) => props.theme.text};
 `;
 
@@ -33,15 +33,18 @@ const Title = styled(motion.div)`
   left: 0;
   right: 0;
   z-index: 1;
-
+  font-size: ${(props) => props.theme.fontxxl};
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: ${(props) => props.theme.text};
+  @media (max-width: 48em) {
+    font-size: ${(props) => props.theme.fontlg};
+  }
   h1 {
     font-family: "Kaushan Script";
-    font-size: ${(props) => props.theme.fontBig};
+    /* font-size: ${(props) => props.theme.fontBig}; */
     text-shadow: 1px 1px 1px ${(props) => props.theme.body};
     height: auto;
     overflow: visible;
@@ -110,8 +113,8 @@ const Loading = () => {
         opacity: 0,
       }}
       transition={{
-        duration: 2,
-        delay: 5,
+        duration: 1,
+        delay: 4,
         ease: "easeInOut",
       }}
     >

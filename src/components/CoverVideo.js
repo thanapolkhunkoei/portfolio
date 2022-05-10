@@ -80,7 +80,7 @@ const contrainer = {
     opacity: 1,
 
     transition: {
-      delayChildren: 2,
+      delayChildren: 6,
       staggerChildren: 0.3,
     },
   },

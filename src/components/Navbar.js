@@ -102,8 +102,8 @@ const Navbar = () => {
         y: 0,
       }}
       transition={{
-        duration: 1,
-        delay: 1,
+        duration: 2,
+        delay: 5,
       }}
     >
       <MenuItems
