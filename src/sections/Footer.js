@@ -46,6 +46,7 @@ const LogoContainer = styled.div`
 
 const FooterComponent = styled(motion.footer)`
   width: 80vw;
+  /* display: contents; */
 
   @media (max-width: 48em) {
     width: 90vw;
@@ -88,28 +89,42 @@ const FooterComponent = styled(motion.footer)`
 
 const Bottom = styled.div`
   padding: 0.5rem 0;
-
   font-size: ${(props) => props.theme.fontlg};
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 
-  a {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+  margin-top: 4rem;
 
-  @media (max-width: 64em) {
+  @media (max-width: 28em) {
     flex-direction: column;
     justify-content: center;
     width: 100%;
     margin: 0;
     span {
       transform: none !important;
+    }
+  }
+
+  a {
+    padding: 2rem;
+    font-size: ${(props) => props.theme.fontlg};
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    @media (max-width: 48em) {
+      padding: 1rem;
+      font-size: ${(props) => props.theme.fontmd};
     }
   }
 
@@ -154,38 +169,14 @@ const Footer = () => {
           <li onClick={() => handleScroll("#project")}>Project</li>
         </ul>
         <Bottom>
-          <a
-            href="#"
-            data-scroll
-            data-scroll-speed="2"
-            data-scroll-direction="horizontal"
-          >
+          <a href="https://github.com/thanapolkhunkoei" target="_blank">
             <GitHubIcon />
           </a>
-          <a
-            href="#"
-            data-scroll
-            data-scroll-speed="2"
-            data-scroll-direction="horizontal"
-          >
+          <a href={`mailto:${"thanapol_khunkoel@hotmail.com"}`}>
             <MailIcon />
           </a>
-          <a
-            href="#"
-            data-scroll
-            data-scroll-speed="-2"
-            data-scroll-direction="horizontal"
-          >
+          <a href="https://facebook.com/thanapol.khunkoei" target="_blank">
             <FacebookIcon />
-          </a>
-          <a
-            href="#"
-            data-scroll
-            data-scroll-speed="-2"
-            data-scroll-direction="horizontal"
-          >
-            <CallIcon />
-            <p>0917755091</p>
           </a>
         </Bottom>
       </FooterComponent>
