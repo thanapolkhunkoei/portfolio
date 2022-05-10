@@ -15,7 +15,7 @@ export const Blogs = [
     date: "5 July, 2021",
     imgSrc:
       "https://res.cloudinary.com/dylx9cg6q/image/upload/v1652073938/videos/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%AD_2565-05-09_%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2_11.52.31_2_tjgnvp.png",
-    link: "https://github.com/thanapolkhunkoei/kcf/tree/main/Desktop/kfcUI",
+    link: "https://github.com/thanapolkhunkoei/Kfc-UI",
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ export const Blogs = [
     date: "3 Feb, 2021",
     imgSrc:
       "https://res.cloudinary.com/dylx9cg6q/image/upload/v1652073920/videos/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%AD_2565-05-08_%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2_23.12.15_2_vshzmf.png",
-    link: "https://github.com/thanapolkhunkoei/tesla/tree/master/Desktop/TeslaUI/Tesla",
+    link: "https://github.com/thanapolkhunkoei/Tesla-UI",
   },
   {
     id: 6,
@@ -51,6 +51,6 @@ export const Blogs = [
     date: "5 Jan, 2021",
     imgSrc:
       "https://res.cloudinary.com/dylx9cg6q/image/upload/v1652076455/videos/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%88%E0%B8%AD_2565-05-09_%E0%B9%80%E0%B8%A7%E0%B8%A5%E0%B8%B2_13.05.25_2_uhfftm.png",
-    link: "https://github.com/thanapolkhunkoei/food_app/tree/master/Desktop/food_app_res",
+    link: "https://github.com/thanapolkhunkoei/food-app",
   },
 ];
