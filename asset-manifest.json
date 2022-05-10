@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d84d5c6a.css",
+    "main.js": "/portfolio/static/js/main.fda931a4.js",
+    "static/js/787.d168572b.chunk.js": "/portfolio/static/js/787.d168572b.chunk.js",
+    "static/media/coding2.mp4": "/portfolio/static/media/coding2.6425451423b5cc6ba6ff.mp4",
+    "static/media/mypic2.jpg": "/portfolio/static/media/mypic2.a476018f403e90287fba.jpg",
+    "static/media/mypic.JPG": "/portfolio/static/media/mypic.790e83b4608fd37cb5a1.JPG",
+    "static/media/pngwing.com.png": "/portfolio/static/media/pngwing.com.73f30aecb3cab55a718b.png",
+    "static/media/MATERIAL-UI.png": "/portfolio/static/media/MATERIAL-UI.9abc31b2dd4501676bf4.png",
+    "static/media/kaushan-script-all-400-normal.woff": "/portfolio/static/media/kaushan-script-all-400-normal.ba623d1ca520a2a711d2.woff",
+    "static/media/sirin-stencil-all-400-normal.woff": "/portfolio/static/media/sirin-stencil-all-400-normal.e1b8add18154b5d65682.woff",
+    "static/media/kaushan-script-latin-400-normal.woff2": "/portfolio/static/media/kaushan-script-latin-400-normal.2855d49bba6b2cb7bec5.woff2",
+    "static/media/sirin-stencil-latin-400-normal.woff2": "/portfolio/static/media/sirin-stencil-latin-400-normal.f668f96beabdc683277b.woff2",
+    "static/media/kaushan-script-latin-ext-400-normal.woff2": "/portfolio/static/media/kaushan-script-latin-ext-400-normal.5a05e21384fe4b1b9db7.woff2",
+    "static/media/Node-JS-01.png": "/portfolio/static/media/Node-JS-01.315746681917b711538b.png",
+    "static/media/mongodb-logo-vector.svg": "/portfolio/static/media/mongodb-logo-vector.3f7df0065a9e79688a79eeff71f69050.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/star_white_48dp.svg": "/portfolio/static/media/star_white_48dp.808b259deb685769240560a11e239a7f.svg",
+    "main.d84d5c6a.css.map": "/portfolio/static/css/main.d84d5c6a.css.map",
+    "main.fda931a4.js.map": "/portfolio/static/js/main.fda931a4.js.map",
+    "787.d168572b.chunk.js.map": "/portfolio/static/js/787.d168572b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d84d5c6a.css",
+    "static/js/main.fda931a4.js"
+  ]
+}
